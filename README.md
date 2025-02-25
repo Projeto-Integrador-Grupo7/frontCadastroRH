@@ -11,8 +11,6 @@ Este é o frontend de um sistema de gerenciamento de Recursos Humanos, desenvolv
 
 ## Funcionalidades
 
-* Criação, leitura, atualização e exclusão de registros de funcionários.
-* Filtros de busca e paginação.
 * Interface responsiva e intuitiva.
 
 ## Instalação
@@ -27,7 +25,7 @@ Este é o frontend de um sistema de gerenciamento de Recursos Humanos, desenvolv
     ```
 3.  Instale as dependências:
     ```bash
-    npm install
+    yarn install
     ```
 
 ## Como Executar
@@ -35,8 +33,12 @@ Este é o frontend de um sistema de gerenciamento de Recursos Humanos, desenvolv
 Para iniciar a aplicação em modo de desenvolvimento:
 
 ```bash
-npm start
-
+yarn dev
+o + enter 
+````
 
 ## Aplicação disponível em:
-http://localhost:3000. *********
+
+http://localhost:3000
+
+
