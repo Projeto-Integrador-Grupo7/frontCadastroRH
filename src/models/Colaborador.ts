@@ -1,5 +1,5 @@
 
-export default interface Postagem {
+export default interface Colaborador {
     id: number ;
     nome: string;
     cargo: string;

@@ -3,7 +3,7 @@ import Footer from './components/footer/Footer';
 import Navbar from './components/navbar/Navbar';
 import Home from './pages/home/Home';
 import ListaColaborador from './components/colaborador/listacolaborador/ListaColaborador';
-import Sobre from './pages/Sobre';
+import Sobre from './pages/sobre/Sobre';
 
 function App() {
   return (

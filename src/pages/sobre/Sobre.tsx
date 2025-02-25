@@ -1,10 +1,10 @@
 import { Users, Building2, Trophy, Clock, CheckCircle, Briefcase } from 'lucide-react';
-import FotoPaola from '../assets/Eu.webp';
-import FotoJaime from '../assets/Jaime (4).jpg';
-import FotoEloiza from '../assets/Eloiza Fernandes (3).jpg';
-import FotoFelipe from '../assets/Felipe Macedo (2).jpg';
-import FotoNathan from '../assets/Nathan Ribeiro  (4).jpg';
-import FotoLucas from '../assets/Lucas Casotti (3).jpg';
+import FotoPaola from '../../assets/Eu.webp';
+import FotoJaime from '../../assets/Jaime (4).jpg';
+import FotoEloiza from '../../assets/Eloiza Fernandes (3).jpg';
+import FotoFelipe from '../../assets/Felipe Macedo (2).jpg';
+import FotoNathan from '../../assets/Nathan Ribeiro  (4).jpg';
+import FotoLucas from '../../assets/Lucas Casotti (3).jpg';
 
 
 
