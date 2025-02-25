@@ -1,4 +1,5 @@
-import { GithubLogo, Envelope } from '@phosphor-icons/react'
+import { Envelope, GithubLogo } from "@phosphor-icons/react"
+
 
 function Footer() {
 

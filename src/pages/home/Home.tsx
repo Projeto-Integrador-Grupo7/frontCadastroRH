@@ -1,3 +1,4 @@
+import ListaColaborador from "../../components/colaborador/listacolaborador/ListaColaborador"
 
 function Home() {
     return (
@@ -11,17 +12,18 @@ function Home() {
                         <p className='text-xl'>
                             Aqui nós gostamos de gente 💙
                         </p>
-                        </div>
-                    </div>
-
-                    <div className="flex justify-center ">
-                        <img
-                            src="https://ik.imagekit.io/b9medhm86/imagem%20rh.png"
-                            alt="Imagem Página Home"
-                            className='w-2/3'
-                        />
                     </div>
                 </div>
+
+                <div className="flex justify-center ">
+                    <img
+                        src="https://ik.imagekit.io/b9medhm86/imagem%20rh.png"
+                        alt="Imagem Página Home"
+                        className='w-2/3'
+                    />
+                </div>
+            </div>
+            <ListaColaborador/>
         </>
     )
 }

@@ -4,10 +4,10 @@ function Navbar() {
     return (
         <>
             <div className='w-full flex justify-center py-4
-            			   bg-blue-900 text-white'>
+            			bg-blue-900 text-white'>
             
                 <div className="container flex justify-between text-lg">
-                    Cadastro RH
+                <Link to='/home' className='hover:underline'>Cadastro RH</Link>  
 
                     <div className='flex gap-4'>
                         <Link to='/listacolaborador' className='hover:underline'>Lista Colaborador</Link> 
