@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import CardColaborador from "../cardcolaborador/CardColaborador";
 import Colaborador from "../../../models/Colaborador";
-import { DNA } from "react-loader-spinner";
+import { DNA } from 'react-loader-spinner';
 
 function ListaColaborador() {
     const [postagens, setPostagens] = useState<Colaborador[]>([]);
@@ -30,7 +30,7 @@ function ListaColaborador() {
                 {
                     id: 3,
                     nome: "Lucas Santos",
-                    cargo: "Desenvoldor Front-End",
+                    cargo: "Desenvolvedor Front-End",
                     salario: 3000,
                     foto: "https://ik.imagekit.io/b9medhm86/user.png?updatedAt=1740434518211",
                     dataAdmissao: "2024-08-20"
