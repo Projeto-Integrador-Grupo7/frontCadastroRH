@@ -35,8 +35,10 @@ Para iniciar a aplicação em modo de desenvolvimento:
 ```bash
 yarn dev
 o + enter 
-
+````
 
 ## Aplicação disponível em:
 
 http://localhost:3000
+
+
