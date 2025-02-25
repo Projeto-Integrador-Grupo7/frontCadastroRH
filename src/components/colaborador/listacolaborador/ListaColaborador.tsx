@@ -4,13 +4,13 @@ import Colaborador from "../../../models/Colaborador";
 import { DNA } from 'react-loader-spinner';
 
 function ListaColaborador() {
-    const [postagens, setPostagens] = useState<Colaborador[]>([]);
+    const [colaborador, setColaborador] = useState<Colaborador[]>([]);
     const [loading, setLoading] = useState(true);
 
     // Simulando carregamento de dados
     useEffect(() => {
         setTimeout(() => {
-            setPostagens([
+            setColaborador([
                 {
                     id: 1,
                     nome: "João Silva",
@@ -58,7 +58,7 @@ function ListaColaborador() {
                     <div className='container mx-auto my-4 
                         grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'
                     >
-                        {postagens.map((colaborador) => (
+                        {colaborador.map((colaborador) => (
                             <CardColaborador key={colaborador.id} colaborador={colaborador} />
                         ))}
                     </div>
